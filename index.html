@@ -3,18 +3,19 @@
     <link rel="stylesheet" href="./src/styles.css">
   </head>
   <body>
-    <h1></h1>
+    <h1 id="title">Star Dance</h1>
     <div>
       <div>
-        <h2>Click start to play!</h2>
+        <h2>Click Collect to start collecting stardust!</h2>
       </div>
       <div>
-        <h2>score: <span id="score">0</span></h2>
+        <h2>Stardust Collected: <span id="score">0</span></h2>
       </div>
       <div>
           <h2><span id="timer">0</span> seconds left.</h2>
       </div>
     </div>
+    <!-- Defining the grid to be used in the game!-->
     <div class="grid">
       <div id="hole0" class="hole">
         <div id="mole0" class="mole"></div>
@@ -22,8 +23,43 @@
       <div id="hole1" class="hole">
         <div id="mole1" class="mole"></div>
       </div>
-      <!--TODO: Add the missing holes and moles. -->
+      <div id="hole2" class="hole">
+        <div id="mole2" class="mole"></div>
+      </div>
+      <div id="hole3" class="hole">
+        <div id="mole3" class="mole"></div>
+      </div>
+      <div id="hole4" class="hole">
+        <div id="mole4" class="mole"></div>
+      </div>
+      <div id="hole5" class="hole">
+        <div id="mole5" class="mole"></div>
+      </div>
+      <div id="hole6" class="hole">
+        <div id="mole6" class="mole"></div>
+      </div>
+      <div id="hole7" class="hole">
+        <div id="mole7" class="mole"></div>
+      </div>
+      <div id="hole8" class="hole">
+        <div id="mole8" class="mole"></div>
+      </div>
     </div>
+<!-- Defining the buttons that are used in the game!-->
+    <div id = "options">
+      <div id = "buttons">
+        <button id = "start">Collect!</button>
+        <button id = "stopButton">Stop music!</button>
+      </div>
+      <div>
+        <p> difficulty: <select id = "dropdown" onchange = "selectOption()"> 
+        <option>Easy</option>
+        <option>Medium</option>
+        <option>Hard</option>
+      </select>
+      </div> </p>
+  </div>
+  
     <script src="./src/index.js"></script>
   </body>
 </html>
