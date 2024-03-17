@@ -52,7 +52,7 @@ h2 {
 .hole:after {
   display: block;
   /*background: url("./assets/hole.png") bottom center no-repeat;*/
-  background: url("assets/galaxy.png") bottom center no-repeat;
+  background: url("/assets/galaxy.png") bottom center no-repeat;
   background: 
   background-size:contain;
   background-size: 50%;
@@ -67,7 +67,7 @@ h2 {
 
 .mole {
   /*background:url('./assets/mole.png') bottom center no-repeat;*/
-  background:url('assets/star.png') bottom center no-repeat;
+  background:url('/assets/star.png') bottom center no-repeat;
   background-size: 40%;
   position: absolute;
   top: 100%;
