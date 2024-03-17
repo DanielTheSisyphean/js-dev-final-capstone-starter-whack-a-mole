@@ -52,7 +52,7 @@ h2 {
 .hole:after {
   display: block;
   /*background: url("./assets/hole.png") bottom center no-repeat;*/
-  background: url("https://cdn.discordapp.com/attachments/479089930816192513/1209620625656909876/image.png?ex=65e795fe&is=65d520fe&hm=3dd8af5c772d3c44555d1478d02126990b17a67637bf686c74da58fa2f7ff4e3&") bottom center no-repeat;
+  background: url("./assets/galaxy.png") bottom center no-repeat;
   background-size:contain;
   background-size: 50%;
   content:'';
@@ -66,7 +66,7 @@ h2 {
 
 .mole {
   /*background:url('./assets/mole.png') bottom center no-repeat;*/
-  background:url('https://cdn.discordapp.com/attachments/479089930816192513/1209621139899416597/image.png?ex=65e79679&is=65d52179&hm=899f686d57bfd7c04b12c373b72c8f24985267f3ffa7299925bb712dd6f21e23&') bottom center no-repeat;
+  background:url('./assets/star.png') bottom center no-repeat;
   background-size: 40%;
   position: absolute;
   top: 100%;
